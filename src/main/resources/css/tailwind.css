@@ -1,5 +1,14 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+/* Custom Styles */
+.table-auto {
+    width: 100%;
+    text-align: left;
+    margin: 20px auto;
+}
+.table-auto th, .table-auto td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
