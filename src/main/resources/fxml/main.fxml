@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Region?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="20" stylesheets="@css/tailwind.css" fx:controller="com.inn.cashflowapp.JavaFxFlow.controller.WelcomeController">
+    <Label text="Welcome to Expense Management App" styleClass="text-4xl font-bold text-blue-600"/>
+    <Region minHeight="20" />
+    <HBox spacing="10">
+        <Button text="View Expenses" onAction="#onViewExpenses" styleClass="btn btn-primary"/>
+        <Button text="Add Expense" onAction="#onAddExpense" styleClass="btn btn-secondary"/>
+    </HBox>
+</VBox>
