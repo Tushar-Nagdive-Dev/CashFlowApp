@@ -1,0 +1,57 @@
+.
+├── Expense.txt
+├── HELP.md
+├── README.md
+├── database
+│   └── expense_management.db
+├── mvnw
+├── mvnw.cmd
+├── package-lock.json
+├── package.json
+├── pom.xml
+├── project-structure.txt
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── inn
+│   │   │           └── cashflowapp
+│   │   │               ├── JavaFxFlow
+│   │   │               │   ├── FxMain.java
+│   │   │               │   ├── controller
+│   │   │               │   │   └── WelcomeController.java
+│   │   │               │   └── models
+│   │   │               ├── SpringFlow
+│   │   │               │   ├── CashflowappApplication.java
+│   │   │               │   ├── config
+│   │   │               │   │   └── DataSourceConfig.java
+│   │   │               │   ├── controller
+│   │   │               │   ├── model
+│   │   │               │   ├── repository
+│   │   │               │   └── service
+│   │   │               └── utils
+│   │   └── resources
+│   │       ├── META-INF
+│   │       │   └── additional-spring-configuration-metadata.json
+│   │       ├── application.properties
+│   │       ├── css
+│   │       │   ├── output.css
+│   │       │   ├── styles.css
+│   │       │   └── tailwind.css
+│   │       ├── database
+│   │       │   └── expense_management.db
+│   │       ├── fxml
+│   │       │   └── main.fxml
+│   │       ├── schema.sql
+│   │       ├── static
+│   │       │   └── icons
+│   │       └── templates
+│   └── test
+│       └── java
+│           └── com
+│               └── inn
+│                   └── cashflowapp
+│                       └── CashflowappApplicationTests.java
+└── tailwind.config.js
+
+31 directories, 24 files
